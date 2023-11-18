@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Photos/nature.jpg);
+    background-size: cover;
+    
+}
+
+nav {
+    background-color: rgb(61, 96, 61);
+    width: 100%;
+    height: 90px;
+    background-image: none;
+    color: white;
+    position: fixed;
+    overflow: hidden;
+
+
+}
+nav span {
+    float: left;
+    font-size: 20px;
+    background-image: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 5px;
+
+
+}
+nav p {
+    background-image: none;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav span img {
+    background-image: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+nav ul {
+    float: right;
+    font-size: 20px;
+    list-style: none;
+    background-image: none;
+
+
+}
+nav ul li 
+{
+    float: left;
+    margin: 25px 20px 0 20px;
+    background-image: none;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li:hover 
+{
+    background-color: black;
+    color: rgb(71, 69, 69);
+    transform: rotate(20deg);
+}
+
+.login {
+    background-color: rgb(27, 28, 30);
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    background-image: none;
+    padding-top: 50px;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.login .form {
+    background-image: none;
+    padding-top: 80px;
+    padding-left: 30px;
+
+
+}
+
+.login .form label, .login .form input {
+    background-image: none;
+    margin-bottom: 30px;
+}
+
+.login .form input {
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+
+}
+.login .form label {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.login .form .email {
+    margin-left: 70px;
+}
+.login .form .pass {
+    margin-left: 42px;
+
+
+}
+
+.login .submit {
+    background-image: none;
+    width: 170px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(129, 183, 138);
+    height: 900px;
+    background-image: none;
+    text-align: left;
+    padding: 50px;
+
+
+
+}
+
+.puzzels {
+    background-image: none;
+    width: 500px;
+    height: 700px;
+    /* background-color: rgb(61, 96, 61); */
+    position: absolute;
+    left: 1000px;
+    
+}
+.puzzel1, .puzzel2, .puzzel3 {
+    background-image: none;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 15px;
+    padding: 40px;
+}
+.puzzels p {
+    background-image: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text
+{
+    background-image: none;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    margin-top: 130px;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: rgb(61, 96, 61); */
+    
+}
+.text h1 {
+    background-image: none;
+    margin: 70px;
+    /* margin-top: 150px; */
+
+}
+
+.text span {
+    background-image: none;
+    margin: 30px;
+    font-size: 20px;
+}
+.text h1 mark {
+    color: white;
+    background-image: none;
+    background-color: rgb(129, 183, 138);
+
+}
+
+.photo {
+    width: 100%;
+    height: 700px;
+    background-image: none;
+    background-color: rgb(35, 57, 91);
+    padding: 50px;
+}
+.photo .nature {
+    width:350px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 70px;
+    overflow: hidden;
+    transition: 1s;
+
+}
+.photo .nature:hover {
+    transform: rotate(-20deg);
+    transition: 1s;
+    cursor: pointer;
+    width: 450px;
+    height: 600px;
+}
+.photo span {
+    float: left;
+    padding-top: 100px;
+    background-image: none;
+    /* float: left; */
+    font-size: 25px;
+    width: 300px;
+    display: inline;
+    color: rgb(163, 155, 155);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-left: 50px;
+}
+.photo .third {
+    background-image:none;
+    float: left;
+
+}
+
+.gallery {
+    width: 100%;
+    height: 700px;
+    background-image: none;
+    background-color: #2F6690;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.gallery .rightGallery {
+    width: 700px;
+    height: 500px;
+    float: left;
+    background-image: none;
+    padding: 30px;
+    padding-bottom: 50px;
+
+}
+.gallery .rightGallery img {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    background-image: none;
+    position: absolute;
+    transition-duration: 1s;
+    border-radius: 50px;
+
+}
+.gallery .rightGallery .paradise1 {
+    margin-left: 60px;
+    /* margin-top: 50px; */
+    padding: 20px;
+    /* margin-bottom: 100px; */
+}
+.gallery .rightGallery .paradise2 {
+    margin-left: 170px;
+    padding: 20px;
+    margin-top: 120px;
+
+}
+.gallery .rightGallery .paradise3 {
+    margin-bottom: 30px;
+    margin-top: 250px;
+
+}
+.gallery .rightGallery .paradise4 {
+    margin-left: 200px;
+    margin-bottom: 200px;
+    margin-top: 380px;
+
+}
+.gallery .rightGallery img:hover {
+    width: 500px;
+    height: 400px;
+    z-index: 1;
+    transition-duration: 1s;
+    transform: rotate(360deg);
+}
+
+.gallery .centerGallery {
+    margin-left: 600px;
+    width: 500px;
+    background-image: none;
+    padding: 10px;
+}
+.gallery .centerGallery img {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    background-image: none;
+    position: absolute;
+    transition-duration: 1s;
+    border-radius: 50px;
+    /* margin-left: 60px; */
+    
+}
+.gallery .centerGallery .rain1 {
+    margin-top: 70px;
+    padding: 20px;
+    margin-left: 150px;
+    z-index: 3;
+}
+.gallery .centerGallery .rain2 {
+    margin-top: 220px;
+    padding: 20px;
+    z-index: 1;
+    margin-left: 250px;
+}
+.gallery .centerGallery .rain3 {
+    margin-top: 400px;
+    padding: 20px;
+    margin-left: 120px;
+
+}
+.gallery .centerGallery img:hover {
+    width: 500px;
+    height: 400px;
+    z-index: 50;
+    transition-duration: 1s;
+    transform: rotate(360deg);
+
+}
+.gallery .centerGallery .rain4 {
+    margin-left: 250px;
+}
+.gallery h1 {
+    background-image: none;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+    margin-left: 500px;
+    text-transform: capitalize;
+    font-size: 80px;
+}
+
+
+/* .gallery .leftGallery {
+    margin-left: 1200px;
+    width: 500px;
+    background-image: none;
+    padding: 10px;
+}
+.gallery .leftGallery img {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    background-image: none;
+    position: absolute;
+    transition-duration: 1s;
+    border-radius: 50px;
+} */
